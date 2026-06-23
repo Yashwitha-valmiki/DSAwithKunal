@@ -1,66 +1,85 @@
 # DSA with Kunal
 
-A Java-based practice repository for Data Structures and Algorithms problems, implementations, and recursion exercises.
+A Java-based data structures and algorithms practice repository containing standalone problem solutions, recursion examples, and core algorithm implementations.
 
-## What you'll find here
+## Overview
 
-This repository contains small, focused Java programs covering common DSA topics such as:
+This repository appears to be a collection of small Java programs used to practice and demonstrate common DSA topics. The code is organized as individual files rather than as one large application, which makes it easy to study one concept at a time.
 
-- Arrays and string basics
+## Topics covered
+
+You can find examples related to:
+
+- Arrays and array manipulation
+- Strings and basic character problems
 - Searching algorithms
 - Sorting algorithms
 - Recursion and backtracking
 - Linked lists
-- Pattern and math problems
-- Matrix and number-based exercises
+- Matrices and patterns
+- Number problems and mathematics
+- Subsequence and permutation exercises
 
-## Repository structure
+## Example files
 
-Most files are standalone Java programs, which makes it easy to open a single file and run a specific example or concept.
-
-Examples include:
+Some of the Java files in this repository include:
 
 - `Array.java`
 - `BinarySearch.java`
+- `BinarySearchUsingRecursion.java`
 - `BubbleSort.java`
 - `CyclicSort.java`
 - `DoublyLinkedList.java`
+- `InsertionSort.java`
 - `MergeSort.java`
 - `QuickSort.java`
 - `Recursion1.java`
 - `SieveofPrimes.java`
 - `SubSequence.java`
+- `PatternsRecursion.java`
+- `Permutations.java`
 
-## Getting started
+## Repository structure
 
-### Prerequisites
+The repository currently contains:
 
-- Java Development Kit (JDK) installed
-- A Java-compatible IDE such as IntelliJ IDEA or VS Code
+- Java source files (`.java`) for practice problems and algorithm implementations
+- Compiled class files (`.class`) generated from some of the Java sources
+- IDE/project configuration folders such as `.idea`, `.vscode`, and `out`
 
-### Run a program
+If you want a cleaner codebase, you can gradually remove compiled artifacts and keep only source files plus helpful project metadata.
 
-1. Open the file you want to explore.
-2. Compile it:
+## How to run a file
+
+1. Make sure you have a JDK installed.
+2. Open the file you want to run.
+3. Compile it:
+
    ```bash
    javac FileName.java
    ```
-3. Run it:
+
+4. Run it:
+
    ```bash
    java FileName
    ```
 
-If the file contains a `Main` class, run that class instead.
+If the file defines a `Main` class, run that class name instead.
 
-## Notes
+## Suggested cleanup
 
-- Some compiled `.class` files are present in the repository.
-- Several files appear to be practice exercises rather than a single unified application.
-- You can use this repository as a learning reference or as a playground for testing DSA concepts in Java.
+For a more polished project structure, consider:
+
+- Keeping only `.java` source files in version control
+- Moving files into folders by topic, such as `arrays/`, `sorting/`, `recursion/`, and `linked-lists/`
+- Adding a `src/` directory and package structure
+- Removing compiled `.class` files from the repository
+- Adding comments or a short description to each file
 
 ## Contributing
 
-Feel free to add new problem solutions, improve existing implementations, or clean up file organization.
+Contributions are welcome. You can improve existing solutions, add new DSA problems, or reorganize the repository into a more structured learning resource.
 
 ## License
 
